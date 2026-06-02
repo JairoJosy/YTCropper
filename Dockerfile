@@ -1,4 +1,4 @@
-FROM node:18-bullseye
+FROM node:20-bullseye
 
 # Install ffmpeg via apt-get
 RUN apt-get update && apt-get install -y ffmpeg wget && rm -rf /var/lib/apt/lists/*
